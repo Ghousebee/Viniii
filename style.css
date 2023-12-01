@@ -1,0 +1,87 @@
+h1{
+    width:90%;
+    height: 80%x;
+    color: white;
+    border-radius:double 6px black;
+    margin: 20px;
+}
+body{
+    background: linear-gradient(#ebe834 20%, #43eb34 100%);
+}
+   
+div{
+        width: 200px;
+        height: 200px;
+        background-color:  red;
+        transition: width 2s,height 4s;
+        border-radius: 200px;
+        }
+        div:hover{
+            width: 300px;
+            height: 300px;
+            border-radius: 200px;
+        }
+
+.img{
+width:100px;
+    height:100px;
+   }
+   .img1{
+    border-radius:25px;
+   }
+  .img2{
+    width: 200Px;
+    height: 200px;
+    border-radius:50%;
+  }
+ 
+ .img3{
+     width: 100px;
+     height: 100px;
+    border-radius:30% 30%/80% 80%;
+    }
+
+  .img1:hover{
+    width:100px;
+    height:100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px black;
+}
+
+.img2:hover{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 40px;                                 
+    box-shadow: 20px 15px 20px blue;
+            
+        }
+        
+        .img3:hover{
+    width:100px;
+    height:200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 40px 20px;
+    box-shadow: 20px 20px 20px pink;
+        }
+
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.image{
+    width: 50%
+    border: solid 3px blue;
+    margin: 10px;
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+
